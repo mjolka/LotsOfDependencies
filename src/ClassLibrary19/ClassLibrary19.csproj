@@ -1,0 +1,32 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <NoWarn>$(NoWarn);NU1001;NU1002;NU1003;NU1190</NoWarn>
+  </PropertyGroup>
+  <ItemGroup>
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="6.0.0" />
+    <PackageReference Include="Microsoft.Extensions.DependencyInjection" Version="5.0.2" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\ClassLibrary1\ClassLibrary1.csproj" />
+    <ProjectReference Include="..\ClassLibrary2\ClassLibrary2.csproj" />
+    <ProjectReference Include="..\ClassLibrary3\ClassLibrary3.csproj" />
+    <ProjectReference Include="..\ClassLibrary4\ClassLibrary4.csproj" />
+    <ProjectReference Include="..\ClassLibrary5\ClassLibrary5.csproj" />
+    <ProjectReference Include="..\ClassLibrary6\ClassLibrary6.csproj" />
+    <ProjectReference Include="..\ClassLibrary7\ClassLibrary7.csproj" />
+    <ProjectReference Include="..\ClassLibrary8\ClassLibrary8.csproj" />
+    <ProjectReference Include="..\ClassLibrary9\ClassLibrary9.csproj" />
+    <ProjectReference Include="..\ClassLibrary10\ClassLibrary10.csproj" />
+    <ProjectReference Include="..\ClassLibrary11\ClassLibrary11.csproj" />
+    <ProjectReference Include="..\ClassLibrary12\ClassLibrary12.csproj" />
+    <ProjectReference Include="..\ClassLibrary13\ClassLibrary13.csproj" />
+    <ProjectReference Include="..\ClassLibrary14\ClassLibrary14.csproj" />
+    <ProjectReference Include="..\ClassLibrary15\ClassLibrary15.csproj" />
+    <ProjectReference Include="..\ClassLibrary16\ClassLibrary16.csproj" />
+    <ProjectReference Include="..\ClassLibrary17\ClassLibrary17.csproj" />
+    <ProjectReference Include="..\ClassLibrary18\ClassLibrary18.csproj" />
+  </ItemGroup>
+</Project>
